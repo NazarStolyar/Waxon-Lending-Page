@@ -230,6 +230,14 @@
     border: 2px solid white;
     border-radius: 50%;
 }
+@media screen and (max-width: 800px) {
+    .slick-prev {
+        left: 12px;
+    }
+    .slick-next {
+        right: 8px;
+    }
+}
 @media screen and (max-width: 375px) {
     .slick-prev {
         left: 6px;
@@ -242,3 +250,9 @@
         right: 6px;
     }
 }
+@media screen and (max-width: 320px) {
+    .slick-dots {
+        bottom: 109px;
+    }
+}
+
