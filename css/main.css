@@ -1,7 +1,9 @@
 body {
     margin: 0;
     padding: 0;
+
 }
+
 .header {
     width: 100%;
     height: 1024px;
@@ -492,12 +494,12 @@ body {
         overflow-x: hidden;
     }
 
-    body
-    {
-        width: 100%;
-        max-width: 100%;
-        overflow-x: hidden;
-    }
+    /*body*/
+    /*{*/
+        /*width: 100%;*/
+        /*max-width: 100%;*/
+        /*overflow-x: hidden;*/
+    /*}*/
     #bg {
         display: none;
     }
@@ -542,20 +544,19 @@ body {
         padding: 0px;
         position: absolute;
         background-color: black;
-        width: 364px;
-        right: 7px;
+        width: 351px;
+        right: -2px;
         top: 58px;
         text-align: center;
         transition: 1s ease;
-       
+
     }
     .meny > ul li a {
         padding: 0px;
         border-bottom: 1px solid white;
+        margin-left: 0px;
+        left: 0px;
     }
-    /*.meny > ul li a:last-child {*/
-        /*border-bottom: none;*/
-    /*}*/
     .shop {
         margin-left: 0px;
         margin-top: 36px;
@@ -565,13 +566,6 @@ body {
     }
     .meny {
         display: none;
-    }
-    menu {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        -webkit-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
     }
 
     .menu__btn {
@@ -658,5 +652,60 @@ body {
     .menu__exit:after {
         -webkit-transform: rotate(-45deg);
         transform: rotate(-45deg);
+    }
+    .header {
+        height: 669px;
+        width: 372px;
+    }
+    .logoAndNav {
+        width: 97%;
+        height: 76px;
+    }
+    .header_text {
+        left: 18%;
+        top: 30%;
+        font-size: 18px;
+    }
+    .header_p {
+        top: 36%;
+        left: 9%;
+        font-size: 26px;
+    }
+    .p_text {
+        left: 20%;
+        font-size: 12px;
+        width: 236px;
+        top: 43%;
+    }
+    .header_button {
+        left: 33%;
+    }
+    .header_p_1 {
+        top: 36%;
+        left: 15%;
+        font-size: 26px;
+    }
+    .p_text_1 {
+        left: 19%;
+        font-size: 12px;
+        width: 236px;
+        top: 43%;
+    }
+    .header_button_1 {
+        left: 33%;
+    }
+    .header_p_2 {
+        top: 36%;
+        left: 7%;
+        font-size: 24px;
+    }
+    .p_text_2 {
+        left: 20%;
+        font-size: 12px;
+        width: 236px;
+        top: 43%;
+    }
+    .header_button_2 {
+        left: 33%;
     }
 }
