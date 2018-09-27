@@ -611,6 +611,20 @@ body {
     .header {
         height: 770px;
     }
+    .waxomImg {
+        top: 131px;
+        width: 650px;
+    }
+    .waxomImg1 {
+        right: 223px;
+        bottom: 223px;
+        width: 600px;
+    }
+    .waxomImg2 {
+        left: 231px;
+        bottom: 569px;
+        width: 600px;
+    }
 }
 @media screen and (max-width: 1000px) {
     .logo {
@@ -748,6 +762,21 @@ body {
     .p_text_2 {
         left: 30%;
         font-size: 12px;
+    }
+    .waxomImg {
+        top: 106px;
+        width: 400px;
+        right: 5px;
+    }
+    .waxomImg1 {
+        right: 103px;
+        bottom: 97px;
+        width: 350px;
+    }
+    .waxomImg2 {
+        left: 101px;
+        bottom: 304px;
+        width: 350px
     }
 
 }
@@ -990,6 +1019,30 @@ body {
     }
     .container_service {
         flex-direction: column;
+    }
+    .waxom_h {
+        font-size: 22px;
+    }
+    .waxom_text {
+        font-size: 12px;
+    }
+    .waxom {
+        height: 385px;
+    }
+    .waxomImg {
+        top: 45px;
+        width: 250px;
+        right: 5px;
+    }
+    .waxomImg1 {
+        right: 84px;
+        bottom: 71px;
+        width: 200px;
+    }
+    .waxomImg2 {
+        left: 82px;
+        bottom: 189px;
+        width: 200px;
     }
 }
 
@@ -1307,5 +1360,26 @@ body {
     }
     #mob_bg {
         height: 571px;
+    }
+    .waxom_h {
+        font-size: 18px;
+    }
+    .waxom_text {
+        font-size: 10px;
+    }
+    .waxomImg {
+        top: 76px;
+        width: 230px;
+        right: 0px;
+    }
+    .waxomImg1 {
+        right: 67px;
+        bottom: 24px;
+        width: 170px;
+    }
+    .waxomImg2 {
+        left: 67px;
+        bottom: 123px;
+        width: 170px;
     }
 }
