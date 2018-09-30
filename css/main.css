@@ -668,16 +668,16 @@ body {
     transition: 0.5s ease;
 
 }
-.latest_block-block:hover .latest-block-rotate {
+.latest_block-block:hover .latest-block-rotate:hover {
     background-color: #362f2d;
 }
-.latest_block-block:hover .latest-block-text {
+.latest_block-block:hover .latest-block-text:hover {
     background-color: #362f2d;
 }
-.latest_block-block:hover .latest-block-text-h1 {
+.latest_block-block:hover .latest-block-text-h1:hover {
     color: white;
 }
-.latest_block-block:hover .latest-block-text-p {
+.latest_block-block:hover .latest-block-text-p:hover {
     color: #867768;
 }
 .latest-bottom-battom {
